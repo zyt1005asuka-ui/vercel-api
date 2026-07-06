@@ -21,7 +21,8 @@ module.exports = async function handler(req, res) {
         user_id: body.user_id || null,
         case_ids: body.case_ids || '',
         mode: body.mode || 'standard',
-        result_text: body.result_text
+        result_text: body.result_text,
+        query: body.query || ''
       });
       return res.status(200).json({ ok: true });
     } catch (e) {
