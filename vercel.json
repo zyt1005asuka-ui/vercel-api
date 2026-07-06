@@ -1,0 +1,32 @@
+{
+  "functions": {
+    "api/click.js": {
+      "memory": 128,
+      "maxDuration": 10
+    },
+    "api/hot.js": {
+      "memory": 128,
+      "maxDuration": 10
+    },
+    "api/keyword.js": {
+      "memory": 128,
+      "maxDuration": 10
+    },
+    "api/keywords.js": {
+      "memory": 128,
+      "maxDuration": 10
+    },
+    "api/feedback.js": {
+      "memory": 128,
+      "maxDuration": 10
+    },
+    "api/search.js": {
+      "memory": 128,
+      "maxDuration": 10
+    },
+    "api/ai-gen.js": {
+      "memory": 128,
+      "maxDuration": 10
+    }
+  }
+}

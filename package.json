@@ -1,0 +1,8 @@
+{
+  "name": "jc-hot-cases-api",
+  "version": "1.0.0",
+  "description": "JCtrans AI案例顾问 - 热门案例点击汇总API（Neon Postgres）",
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.0"
+  }
+}
